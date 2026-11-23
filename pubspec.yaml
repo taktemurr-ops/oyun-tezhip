@@ -1,0 +1,24 @@
+name: oyun_tezhip
+description: "Tezhip – Özgün Oyunlar merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 05acd1e648dcb04c962281272f3fb806fc9ccc99
+  ozgun_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/ozgun-motoru
+      ref: 8cbcf48993a56c931ea4df5149b2534ac0dc32f1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
